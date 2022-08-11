@@ -2,13 +2,14 @@
   "name": "sunnyside-agency-landing-page-main",
   "version": "1.0.0",
   "description": "![Design preview for the Sunnyside agency landing page coding challenge](./design/desktop-preview.jpg)",
-  "main": "tailwind.config.js",
+  "main": "index.js",
   "dependencies": {
     "tailwindcss": "^3.1.8"
   },
   "devDependencies": {},
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "tailwind build -i src/style.css -o dist/style.css",
+    "watch": "tailwind build -i src/style.css -o dist/style.css --watch"
   },
   "author": "aahil",
   "license": "ISC"
