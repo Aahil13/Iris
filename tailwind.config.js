@@ -8,6 +8,10 @@ module.exports = {
       lg: "976px",
       xl: "1440px",
     },
+    fontFamily: {
+      Barlow: ["Barlow", "sans-serif"],
+      Fraunces: ["Fraunces", "serif"],
+    },
     extend: {
       colors: {
         SoftRed: "hsl(7, 99%, 70%)",
@@ -23,6 +27,7 @@ module.exports = {
       },
       backgroundImage: {
         "hero-pattern": "url('/images/desktop/image-header.jpg')",
+        "hero-pattern-mobile": "url('/images/mobile/image-header.jpg')",
       },
     },
   },
