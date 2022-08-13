@@ -27,10 +27,10 @@ module.exports = {
         White: "hsl(0, 0%, 100%)",
       },
       backgroundImage: {
-        "hero-pattern": "url('/images/desktop/image-header.jpg')",
-        "hero-pattern-mobile": "url('/images/mobile/image-header.jpg')",
-        "graphics" : "url('/images/desktop/image-graphic-design.jpg')",
-        "photography": "url('/images/desktop/image-photography.jpg')"
+        "hero-pattern": "url('../images/desktop/image-header.jpg')",
+        "hero-pattern-mobile": "url('../images/mobile/image-header.jpg')",
+        graphics: "url('../images/desktop/image-graphic-design.jpg')",
+        photography: "url('../images/desktop/image-photography.jpg')",
       },
     },
   },
