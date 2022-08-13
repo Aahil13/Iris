@@ -29,8 +29,8 @@ module.exports = {
       backgroundImage: {
         "hero-pattern": "url('../images/desktop/image-header.jpg')",
         "hero-pattern-mobile": "url('../images/mobile/image-header.jpg')",
-        graphics: "url('../images/desktop/image-graphic-design.jpg')",
-        photography: "url('../images/desktop/image-photography.jpg')",
+        "graphics": "url('../images/desktop/image-graphic-design.jpg')",
+        "photography": "url('../images/desktop/image-photography.jpg')",
       },
     },
   },
