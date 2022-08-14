@@ -71,11 +71,9 @@ In this project, I started my journey on knowing and mastering tailwind css. I w
 
 ## Author
 
-- Website - [Add your name here](https://www.your-site.com)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
-- Twitter - [@yourusername](https://www.twitter.com/yourusername)
+- Frontend Mentor - [@Aahil13](https://www.frontendmentor.io/profile/Aahil13)
+- Twitter - [@OnyeanunaE](https://twitter.com/OnyeanunaE)
 
-**Note: Delete this note and add/remove/edit lines above based on what links you'd like to share.**
 
 ## Acknowledgments
 
