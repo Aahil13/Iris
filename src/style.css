@@ -4,9 +4,27 @@
 @tailwind components;
 @tailwind utilities;
 
-@layer utilities{
+@layer utilities {
   .header-box {
     @apply container text-center mx-auto self-start mb-8;
+  }
+  .service-main {
+    @apply grid grid-cols-1 grid-rows-6 md:grid-rows-3 md:grid-cols-2 grid-flow-col;
+  }
+  .service-grid {
+    @apply grid;
+  }
+  .service-grid_even {
+    @apply content-evenly;
+  }
+  .service-grid_end {
+    @apply py-6 content-end bg-no-repeat bg-contain;
+  }
+  .service-even_p {
+    @apply my-5 text-GrayishBlue;
+  }
+  .learn {
+    @apply my-5 uppercase rounded-lg w-max text-violet border-4 border-White;
   }
 }
 
@@ -17,7 +35,7 @@
   h2 {
   }
   h3 {
-    @apply text-xl md:text-3xl;
+    @apply text-xl md:text-3xl font-Fraunces;
   }
   li {
     @apply hover:bg-sky-300 hover:uppercase rounded-full px-4 py-1;
@@ -26,7 +44,7 @@
     @apply flex justify-between items-start self-baseline;
   }
   header {
-    @apply grid bg-cover w-full bg-center bg-no-repeat bg-hero-pattern-mobile md:bg-hero-pattern h-screen p-5 text-white py-4;
+    @apply grid bg-cover w-full bg-center bg-no-repeat bg-hero-pattern-mobile md:bg-hero-pattern h-screen p-2 sm:p-5 text-white py-4;
   }
   body {
     @apply w-full font-Barlow font-[600] text-xs;
