@@ -731,10 +731,6 @@ body{
   flex-grow: 1 !important;
 }
 
-.grid-cols-1{
-  grid-template-columns: repeat(1, minmax(0, 1fr)) !important;
-}
-
 .justify-center{
   justify-content: center !important;
 }
@@ -783,11 +779,6 @@ body{
 .py-20{
   padding-top: 5rem !important;
   padding-bottom: 5rem !important;
-}
-
-.px-5{
-  padding-left: 1.25rem !important;
-  padding-right: 1.25rem !important;
 }
 
 .py-12{
@@ -987,25 +978,38 @@ body{
   color: hsl(213 9% 39% / var(--tw-text-opacity));
 }
 
+.projects-grid{
+  display: grid;
+  grid-template-columns: repeat(1, minmax(0, 1fr));
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+}
+
 @media (min-width: 375px){
-  .sm\:grid-cols-2{
-    grid-template-columns: repeat(2, minmax(0, 1fr)) !important;
+  .projects-grid{
+    grid-template-columns: repeat(2, minmax(0, 1fr));
   }
+}
+
+@media (min-width: 768px){
+  .projects-grid{
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+}
+
+@media (min-width: 976px){
+  .projects-grid{
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+  }
+}
+
+.projects-img{
+  width: 100%;
 }
 
 @media (min-width: 768px){
   .md\:flex{
     display: flex !important;
-  }
-
-  .md\:px-0{
-    padding-left: 0px !important;
-    padding-right: 0px !important;
-  }
-}
-
-@media (min-width: 976px){
-  .lg\:grid-cols-4{
-    grid-template-columns: repeat(4, minmax(0, 1fr)) !important;
   }
 }
