@@ -20,11 +20,29 @@
   .service-grid_end {
     @apply py-6 content-end bg-no-repeat bg-contain;
   }
+  .service-texts {
+    @apply w-full md:w-80 mx-auto p-2 md:px-0;
+  }
   .service-even_p {
     @apply my-5 text-GrayishBlue;
   }
   .learn {
     @apply my-5 uppercase rounded-lg w-max text-violet border-4 border-White;
+  }
+  .testimonial-section {
+    @apply px-2 md:px-0 md:h-80 grid grid-cols-1 lg:grid-cols-3 md:grid-cols-2 gap-4;
+  }
+  .testimonial-grid {
+    @apply mb-12 grid justify-center w-full;
+  }
+  .testimonial {
+    @apply grid justify-center content-between;
+  }
+  .testimonial-img {
+    @apply rounded-full w-12 mx-auto;
+  }
+  .testimonial-p {
+    @apply text-VeryDarkblue;
   }
 }
 
@@ -36,6 +54,9 @@
   }
   h3 {
     @apply text-xl md:text-3xl font-Fraunces;
+  }
+  h4 {
+    @apply font-Fraunces text-violet;
   }
   li {
     @apply hover:bg-sky-300 hover:uppercase rounded-full px-4 py-1;
