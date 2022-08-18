@@ -50,6 +50,9 @@
   .projects-img {
     @apply w-full;
   }
+  .footer-li {
+    @apply hover:bg-DarkCyan hover:text-white;
+  }
 }
 
 @layer base {
