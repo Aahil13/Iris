@@ -14,6 +14,7 @@
       href="../images/favicon-32x32.png"
     />
     <link rel="stylesheet" href="./dist/style.css" />
+    <script defer src="src/script.js"></script>
     <title>Iris</title>
   </head>
   <body>
@@ -23,23 +24,23 @@
           <img src="./images/logo.svg" alt="sunnyside logo" />
         </div>
         <div>
-          <ul class="hidden md:flex space-x-5">
-            <li>
+          <ul class="hidden mobile-nav md:flex md:desktop-nav header-ul">
+            <li class="md:hover:bg-sky-300 md:text-white header-li">
               <a href="#about">About</a>
             </li>
-            <li>
+            <li class="md:hover:bg-sky-300 md:text-white header-li">
               <a href="#services">Services</a>
             </li>
-            <li>
+            <li class="md:hover:bg-sky-300 md:text-white header-li">
               <a href="#projects">Projects</a>
             </li>
-            <li>
+            <li class="md:hover:bg-sky-300 md:text-white header-li">
               <a href="#contact">Contact</a>
             </li>
           </ul>
         </div>
-        <div class="menu md:hidden">
-          <img src="images/icon-hamburger.svg" alt="icon-hamburger">
+        <div class="menu md:hidden hover:cursor-pointer">
+          <img src="images/icon-hamburger.svg" alt="icon-hamburger" />
         </div>
       </nav>
 
