@@ -32,8 +32,9 @@ gsap.from(".arrow", {
 document.querySelectorAll("ul li").forEach((li, index) => {
   li.addEventListener("click", () => {
     gsap.to(window, {
-      duration: 1,
+      duration: 2,
       scrollTo: { y: "#section" + (index + 1), offsetY: 0 },
+      ease: "power4.out"
     });
   });
 });
