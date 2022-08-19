@@ -39,7 +39,7 @@
     @apply grid justify-center content-between;
   }
   .testimonial-img {
-    @apply rounded-full w-12 mx-auto;
+    @apply rounded-full w-12 mx-auto hover:animate-bounce;
   }
   .testimonial-p {
     @apply text-VeryDarkblue;
@@ -48,7 +48,7 @@
     @apply grid px-2 md:px-0 grid-cols-1 lg:grid-cols-4 sm:grid-cols-2;
   }
   .projects-img {
-    @apply w-full;
+    @apply w-full hover:animate-pulse transition;
   }
   .footer-li {
     @apply hover:bg-DarkCyan hover:text-white;
