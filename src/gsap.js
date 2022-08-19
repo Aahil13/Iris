@@ -10,9 +10,9 @@ t1.from(".links__list", {
 
 //animate headerbox
 t1.from(".header-box", {
-  duration: 2,
+  duration: 1,
   opacity: 0,
-  y: "-30px",
+  scale: 1.3,
   ease: "power1.in",
 });
 
