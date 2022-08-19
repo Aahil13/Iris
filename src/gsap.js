@@ -97,7 +97,7 @@ function swap([a, b]) {
 }
 
 // click anywhere to flip
-document.addEventListener("click", doFlip);
+document.querySelector('#section1').addEventListener("click", doFlip);
 
 
 
