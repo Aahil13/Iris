@@ -19,26 +19,26 @@
   <body>
     <header>
       <nav>
-        <div class="logo-box self-center">
+        <div class="logo-box self-center links__list">
           <img src="./images/logo.svg" alt="sunnyside logo" />
         </div>
         <div>
           <ul class="hidden mobile-nav md:flex md:desktop-nav header-ul">
-            <li class="md:hover:bg-sky-300 md:text-white header-li">
+            <li class="links__list md:hover:bg-sky-300 md:text-white header-li">
               <a href="#about">About</a>
             </li>
-            <li class="md:hover:bg-sky-300 md:text-white header-li">
+            <li class="links__list md:hover:bg-sky-300 md:text-white header-li">
               <a href="#services">Services</a>
             </li>
-            <li class="md:hover:bg-sky-300 md:text-white header-li">
+            <li class="links__list md:hover:bg-sky-300 md:text-white header-li">
               <a href="#projects">Projects</a>
             </li>
-            <li class="md:hover:bg-sky-300 md:text-white header-li">
+            <li class="links__list md:hover:bg-sky-300 md:text-white header-li">
               <a href="#contact">Contact</a>
             </li>
           </ul>
         </div>
-        <div class="menu md:hidden hover:cursor-pointer">
+        <div class="links__list menu md:hidden hover:cursor-pointer">
           <lord-icon
             src="https://cdn.lordicon.com/vfdqnhfq.json"
             trigger="hover"
@@ -58,7 +58,7 @@
         />
       </div>
     </header>
-    <section id="services">
+    <section id="section1">
       <div class="service-main">
         <div class="service-grid service-grid_even">
           <div class="service-texts">
@@ -121,7 +121,7 @@
         </div>
       </div>
     </section>
-    <section id="about">
+    <section id="section2">
       <div class="container mx-auto py-20 text-center">
         <h2
           class="text-1xl mb-10 tracking-widest font-Fraunces text-center uppercase text-GrayishBlue"
@@ -184,7 +184,7 @@
         </div>
       </div>
     </section>
-    <section id="projects">
+    <section id="section3">
       <div class="projects-grid">
         <div>
           <img
@@ -216,7 +216,10 @@
         </div>
       </div>
     </section>
-    <section id="contact" class="bg-moderateCyan grid px-2 md:justify-center">
+    <section
+      id="section4"
+      class="bg-moderateCyan grid px-2 md:justify-center"
+    >
       <div class="text-center py-12">
         <img
           class="mx-auto my-4"
@@ -267,6 +270,8 @@
     </section>
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.0/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.0/ScrollTrigger.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.0/ScrollToPlugin.min.js"></script>
     <script src="src/gsap.js"></script>
     <script src="https://cdn.lordicon.com/xdjxvujz.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
