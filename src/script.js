@@ -16,4 +16,5 @@ var typed = new Typed(".heading-text", {
   typeSpeed: 200,
   backSpeed: 200,
   loop: true,
+  startDelay: 3000,
 });
