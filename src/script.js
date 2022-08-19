@@ -12,7 +12,7 @@ menuBtn.addEventListener("click", function () {
 //typed.js
 ////////Typewriter effect
 var typed = new Typed(".heading-text", {
-  strings: ["We are creatives", "Welcome❤"],
+  strings: ["We are creatives", "Welcome ❤"],
   typeSpeed: 200,
   backSpeed: 200,
   loop: true,
