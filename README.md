@@ -40,6 +40,7 @@ Users should be able to:
 - CSS Grid
 - Mobile-first workflow
 - [Tailwind](https://tailwindcss.com/) - css framework
+- [Gsap](https://greensock.com/gsap/) - javascript animation library
 
 ### What I learned
 
